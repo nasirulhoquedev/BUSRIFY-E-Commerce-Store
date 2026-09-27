@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files with sensitive credentials
+.env
+.env.local
+*.env
+
+# SQLite local database binary files
+*.db
+*.db-journal
+*.sqlite
+ecommerce.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
